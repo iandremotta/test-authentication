@@ -6,4 +6,10 @@ https://jwt-auth.readthedocs.io/en/develop/laravel-installation/
 Correção do cors, para o funcionamento da API
 https://github.com/fruitcake/laravel-cors
 
-Angular
+CRUD de usuários com os campos nome, email, password, created_at, update_at
+
+Serviço de criação e edição -> criação de usuário, para edição deixei disponível apenas a atualização da senha
+
+Serviço de login -> criado com autenticação automática pós criação de usuário
+
+Angular para a utilização dos serviços, e criação das telas de login, formulário e uma home da área do usuário logado.
