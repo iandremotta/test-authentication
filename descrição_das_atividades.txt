@@ -1,0 +1,9 @@
+Atividades realizadas:
+
+Utilização do JWT para o sistema de login
+https://jwt-auth.readthedocs.io/en/develop/laravel-installation/
+
+Correção do cors, para o funcionamento da API
+https://github.com/fruitcake/laravel-cors
+
+Angular
