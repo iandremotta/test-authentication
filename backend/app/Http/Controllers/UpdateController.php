@@ -27,7 +27,7 @@ class UpdateController extends Controller
         // User::where('email', $userEmail)->update(['password' => bcrypt($request->password)]);
         $user = User::whereEmail(auth()->user()->email)->first();
         $user->update(['password' => $request->password]);
-        return response()->json(['data'=> 'Senha alterada com sucesso'], Response::HTTP_CREATED);
+        return response()->json(['data'=> 'Senha alterada com sucesso'], Response::HTTP_OK);
     }
 
     
