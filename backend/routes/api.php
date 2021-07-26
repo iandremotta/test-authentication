@@ -22,5 +22,5 @@ Route::group([
     'prefix'=> 'update'
 ], function ($router){
     Route::get('index', [UpdateController::class, 'index']);
-    Route::update('password', [UpdateController::class, 'password']);
+    Route::put('password', [UpdateController::class, 'password']);
 });
